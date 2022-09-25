@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     CORKOWL ASSIGNMENT
+    <font-awesome-icon :icon="['fas', 'search']" />
   </div>
 </template>
 
@@ -9,7 +10,7 @@
 export default {
   name: 'App',
   components: {
-    
+
   }
 }
 </script>
