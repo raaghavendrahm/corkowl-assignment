@@ -1,0 +1,8 @@
+.right-pane {
+  background-color: wheat;
+  position: absolute;
+  /* top: 56px; */
+  left: 250px;
+  min-height: 100vh;
+  width: calc(100% - 250px);
+}
