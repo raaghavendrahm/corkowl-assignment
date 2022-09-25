@@ -3,6 +3,7 @@
     <overview-comp />
     <cards-row />
     <sales-comp />
+    <inventory-comp />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
   import overviewComp from "../overview/overviewComp.vue";
   import cardsRow from "../cardsRow/cardsRow.vue";
   import salesComp from "../sales/salesComp.vue";
+  import inventoryComp from "../inventory/inventoryComp.vue";
 
   export default {
     name: "rightPane",
     components: {
       overviewComp,
       cardsRow,
-      salesComp
+      salesComp,
+      inventoryComp
     }
   }
 </script>

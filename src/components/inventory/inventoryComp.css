@@ -1,0 +1,100 @@
+.inventory {
+  /* letter-spacing: 0.03em; */
+  /* background: lightyellow; */
+  padding: 0 34px;
+  margin-top: 24px;
+}
+
+.inventory > p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262730;
+  margin-bottom: 16px;
+}
+
+.inventory .product-list .product-list-nav {
+  height: 40px;
+  /* background: lightgreen; */
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #485572;
+  letter-spacing: 0.09em;
+  border-top: 1px solid #ecf1f4;
+  border-bottom: 1px solid #ecf1f4;
+  padding: 0px 10px;
+}
+
+.inventory .product-list .product-list-nav div {
+  letter-spacing: 0.09em;
+}
+
+.inventory .product-list .product-list-nav input[type='checkbox'] {
+  width: 16px;
+  height: 16px;
+  appearance: none;
+  background: white;
+  border: 1.5px solid #8c8ca1;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: -2px;
+  margin-right: 17px;
+}
+
+.inventory .product-list .product-list-nav input[type='checkbox']::after {
+  /* font-family: 'Font Awesome 5 Free'; */
+  /* content: "\f00c"; */
+  content: "\2713";
+  font-weight: 900;
+  color: white;
+  font-size: 10px;
+  margin-left: 2px;
+  margin-top: -1px;
+  display: none;
+}
+
+.inventory .product-list .product-list-nav input[type='checkbox']:checked {
+  background: #ef4859;
+  color: white;
+  border: 1.5px solid #ef4859;
+}
+
+.inventory
+  .product-list
+  .product-list-nav
+  input[type='checkbox']:checked::after {
+  display: block;
+}
+
+.inventory .product-list .product-list-nav div:nth-child(2) {
+  /* margin-right: 300px; */
+  margin-right: 400px;
+}
+
+.inventory .product-list .product-list-nav div:nth-child(3) {
+  /* margin-right: 90px; */
+  margin-right: 140px;
+}
+
+.inventory .product-list .product-list-nav div:nth-child(4) {
+  /* margin-right: 70px; */
+  margin-right: 120px;
+}
+
+.inventory .product-list .product-list-nav div:nth-child(5) {
+  /* margin-right: 80px; */
+  margin-right: 130px;
+}
+
+.inventory .product-list .product-list-nav div:nth-child(6) {
+  /* margin-right: 130px; */
+  margin-right: 220px;
+}
+
+.inventory .product-list .product-list-nav div:nth-child(7) {
+  /* margin-right: 80px; */
+  margin-right: 100px;
+}
