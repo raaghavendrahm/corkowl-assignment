@@ -45,9 +45,7 @@
           </div>
 
           <div class="line-chart">
-            <div class="inner-div">
-              <!-- <LineChart /> -->
-            </div>
+            <line-chart />
           </div>
         </div>
         <div class="sales-right-pane">
@@ -68,8 +66,15 @@
 </template>
 
 <script>
+  import lineChart from "../chart/lineChart.vue";
+
   export default {
     name: "salesComp",
+
+    components: {
+      lineChart,
+    },
+
     data() {
       return {
         dataFromAPI: {
