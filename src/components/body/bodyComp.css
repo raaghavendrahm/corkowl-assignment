@@ -1,0 +1,9 @@
+.bodyComp {
+  position: absolute;
+  top: 56px;
+  min-width: 100vw;
+  min-height: 100vh;
+  letter-spacing: 0.03em;
+  display: flex;
+  background-color: bisque;
+}

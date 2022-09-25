@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <navbar-comp />
+    <body-comp />
   </div>
 </template>
 
 <script>
 import navbarComp from "./components/navbar/navbarComp.vue";
+import bodyComp from "./components/body/bodyComp.vue";
 
 export default {
   name: 'App',
   components: {
     navbarComp,
+    bodyComp
   }
 }
 </script>
@@ -18,7 +21,7 @@ export default {
 <style>
   /* Import Open Sans Font */
   @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-  
+
   * {
     margin: 0;
     padding: 0;
