@@ -1,0 +1,75 @@
+.leftPane {
+  /* background-color: aquamarine; */
+  min-width: 250px;
+  min-height: 100vh;
+  position: fixed;
+}
+
+.flex-item {
+  display: flex;
+  width: 100%;
+  height: 56px;
+  align-items: center;
+  /* background: yellow; */
+  padding-left: 27px;
+}
+
+.flex-item p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #485572;
+  margin-bottom: 4px;
+}
+
+.flex-item .icon {
+  color: #485572;
+  margin-right: 19px;
+  margin-bottom: 5px;
+}
+
+.flex-item:hover {
+  color: #811434;
+  background: #f7f1f3;
+  border-right: 2px solid #811434;
+  cursor: pointer;
+}
+
+.flex-item:hover .icon {
+  color: #811434;
+}
+
+.flex-item:hover p {
+  color: #811434;
+}
+
+.footer-heading {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #8c8ca1;
+  position: fixed;
+  left: 24.98px;
+  bottom: 77.44px;
+}
+
+.footer-sub-heading {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #8c8ca1;
+  position: fixed;
+  left: 24px;
+  bottom: 47.7px;
+  letter-spacing: normal;
+}
+
+.left-arrow {
+  width: 20px;
+  height: 20px;
+  color: #ef4859;
+  position: fixed;
+  left: 240px;
+  bottom: 65.7px;
+  cursor: pointer;
+}
