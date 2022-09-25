@@ -12,13 +12,23 @@
         <div>COST</div>
         <div>PRICE</div>
       </div>
+
+      <div class="products" v-for="(product, index) in products" :key="index">
+        <product-comp :product="product"/>
+      </div>
+
     </div>
   </div>
 </template>
 
 <script>
+  import productComp from "../product/productComp.vue";
+
   export default {
     name: "inventoryComp",
+    components: {
+      productComp,
+    },
 
     data() {
       return {
