@@ -1,0 +1,74 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  /* background: lightskyblue; */
+  padding: 16px;
+  width: 350px;
+}
+
+.card .info p:nth-child(1) {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8c8ca1;
+}
+
+.card .info p:nth-child(2) {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: black;
+}
+
+.card .icon {
+  display: inline-block;
+  margin-top: -30px;
+}
+
+.card-orange {
+  box-shadow: 0px -2px 0px #ffaa2c, 0px 2px 11px rgba(0, 0, 0, 0.06);
+}
+
+.icon-orange {
+  color: #ffaa2c;
+}
+
+.card-blue {
+  box-shadow: 0px -2px 0px #2c67ff, 0px 2px 11px rgba(0, 0, 0, 0.06);
+}
+
+.icon-blue {
+  color: #2c67ff;
+}
+
+.card-green {
+  box-shadow: 0px -2px 0px #00cf3a, 0px 2px 11px rgba(0, 0, 0, 0.06);
+}
+
+.icon-green {
+  color: #00cf3a;
+}
+
+.card-red {
+  box-shadow: 0px -2px 0px #ff1c1c, 0px 2px 11px rgba(0, 0, 0, 0.06);
+}
+
+.icon-red {
+  color: #ff1c1c;
+}
+
+.card-gray {
+  box-shadow: 0px -2px 0px #8c8ca1, 0px 2px 11px rgba(0, 0, 0, 0.06);
+}
+
+.icon-gray {
+  color: #8c8ca1;
+}
+
+.card:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  transform: scale(1.05);
+}

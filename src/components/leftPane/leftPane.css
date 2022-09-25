@@ -3,6 +3,7 @@
   min-width: 250px;
   min-height: 100vh;
   position: fixed;
+  border-right: 1px solid #ECF1F4;
 }
 
 .flex-item {

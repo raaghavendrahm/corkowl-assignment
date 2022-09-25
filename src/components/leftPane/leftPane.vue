@@ -57,13 +57,6 @@
 <script>
   export default {
     name: "leftPane",
-    // data() {
-    //   return {
-    //     dataFromAPI: {
-    //       tabs: ['Dashboard', 'Inventory', 'Orders', 'Customers', 'Reports', 'Settings'],
-    //     }
-    //   }
-    // }
   }
 </script>
 
